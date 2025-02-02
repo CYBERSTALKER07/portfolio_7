@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // components
 import Circles from '/components/Circles';
 
@@ -24,7 +25,9 @@ const Contact = () => {
             exit='hidden'
             className='h2 text-center mb-12'
           >
-            Let's <span className='text-accent'>connect.</span>
+            Let's connect.<span className='text-accent'>
+              If it's 2125, sorry we are not availble at a time</span>
+            
           </motion.h2>
           {/* form */}
           <motion.form

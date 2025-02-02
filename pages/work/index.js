@@ -22,7 +22,9 @@ const Work = () => {
               exit='hidden'
               className='h2 xl:mt-12'
             >
-              My work <span className='text-accent'>.</span>
+          Chagatai Literature 
+
+ <span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
@@ -31,8 +33,10 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-              eveniet dignissimos distinctio tempore harum laudantium.
+            (14th–19th centuries)
+The Chagatai language became the dominant literary medium in Central Asia during this period.
+
+Timurid Renaissance: Under the Timurid Empire (14th–15th centuries), literature flourished, with a blend of Turkic, Persian, and Islamic influences.
             </motion.p>
           </div>
 

@@ -27,10 +27,10 @@ module.exports = {
         accent: '#F13024',
       },
       backgroundImage: {
-        explosion: 'url("/bg-explosion.png")',
+        explosion: 'url("/photo_1_2025-01-30_12-57-38.jpg")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
-        site: 'url("/site-bg.svg")',
+        site: 'url("/photo_2_2025-01-30_12-57-38.jpg")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',

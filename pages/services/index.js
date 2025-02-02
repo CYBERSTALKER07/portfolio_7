@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // components
 import ServiceSlider from '../../components/ServiceSlider';
 import Bulb from '../../components/Bulb';
@@ -22,7 +23,7 @@ const Services = () => {
               exit='hidden'
               className='h2 xl:mt-8'
             >
-              My services <span className='text-accent'>.</span>
+              Notable Figures <span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
@@ -31,8 +32,13 @@ const Services = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-              eveniet dignissimos distinctio tempore harum laudantium.
+             
+
+Yusuf Khass Hajib (11th century): Wrote the Kutadgu Bilig ("Wisdom of Royal Glory"), a didactic poem that blends Turkic and Islamic values.
+
+Ahmed Yesevi (12th century): A Sufi poet whose works, such as the Divan-i Hikmet, combined spiritual teachings with Turkic poetic forms.
+
+
             </motion.p>
           </div>
 

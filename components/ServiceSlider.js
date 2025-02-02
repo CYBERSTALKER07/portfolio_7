@@ -22,30 +22,30 @@ import { FreeMode, Pagination } from 'swiper';
 // service data
 export const serviceData = [
   {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    // icon: <RxCrop />,
+    title: 'national insttruments',
+    description: 'National Instruments of Uzbekistan – The melodies of Uzbekistan come alive through its traditional instruments',
   },
   {
-    icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    // icon: <RxPencil2 />,
+    title: 'national food',
+    description: 'Plov – A dish that unites the Uzbek people, Plov is more than just food—it is a symbol of hospitality, tradition, and community.',
   },
   {
-    icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    // icon: <RxDesktop />,
+    title: 'national clothing',
+    description: 'L National Clothing & Adras Fabric – Uzbek traditional clothing is a reflection of the country’s artistic and cultural heritage.',
   },
-  {
-    icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
-    icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
+  // {
+  //   icon: <RxReader />,
+  //   title: 'Copywriting',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  // },
+  // {
+  //   icon: <RxRocket />,
+  //   title: 'SEO',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  // },
 ];
 
 const ServiceSlider = () => {
@@ -67,7 +67,7 @@ const ServiceSlider = () => {
         clickable: true,
       }}
       modules={[FreeMode, Pagination]}
-      className='h-[240px] sm:h-[340px]'
+      className='h-full sm:h-[340px]'
     >
       {serviceData.map((item, index) => {
         return (

@@ -1,25 +1,24 @@
 // testimonial slider data
+import shakhzod from "..//..//ethan-portfolio/public/shakhzod.jpg"
+import quvonchbek from "..//..//ethan-portfolio/public/quvonchbek.JPG"
 export const testimonialSlider = [
   {
-    image: '/t-avt-1.png',
-    name: 'Anne Smith',
-    position: 'Customer',
+    image: "",
+    name: 'Shakhzod',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'student at AUT',
   },
   {
-    image: '/t-avt-2.png',
-    name: 'Jane Doe',
-    position: 'Customer',
+    image: '',
+    name: 'Madina',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'student at AUT',
   },
   {
-    image: '/t-avt-3.png',
-    name: 'Jhon Doe',
-    position: 'Customer',
+    image:"",
+    name: 'Quvonchbek',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'student at AUT',
   },
 ];
 
@@ -58,7 +57,7 @@ const TestimonialSlider = () => {
                 <div className='flex flex-col justify-center text-center'>
                   {/* avatar */}
                   <div className='mb-2 mx-auto'>
-                    <Image src={person.image} width={100} height={100} alt='' />
+                    {/* <Image src={person.image} width={100} height={100} alt='' /> */}
                   </div>
                   {/* name */}
                   <div className='text-lg'>{person.name}</div>

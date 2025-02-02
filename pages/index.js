@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 // components
 import ParticlesContainer from '../components/ParticlesContainer';
-import ProjectsBtn from '../components/ProjectsBtn';
+// import ProjectsBtn from '../components/ProjectsBtn';
 import Avatar from '../components/Avatar';
 
 // framer motion
@@ -26,8 +26,8 @@ const Home = () => {
             exit='hidden'
             className='h1'
           >
-            Transforming Ideas <br /> Into{' '}
-            <span className='text-accent'>Digital Reality</span>
+            Time <br /> Capsule{' '}
+            <span className='text-accent'> of uzbekistan</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -37,13 +37,16 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            nostrum quam reprehenderit vero, tenetur voluptatem nulla aut
-            aspernatur dolores ut.
+Uzbekistan’s legacy is a rich tapestry woven from centuries of history, cultural exchanges, and artistic traditions that have shaped both the region and the world. Situated at the crossroads of Central Asia, Uzbekistan has been a key player in the development of civilization, with its cities once forming part of the Silk Road—the legendary trade route connecting East and West. This strategic position has left the country with a diverse cultural heritage, blending influences from Persian, Turkic, Mongol, and Russian civilizations.
+
+
+
+
+.
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
-            <ProjectsBtn />
+            {/* <ProjectsBtn /> */}
           </div>
           <motion.div
             variants={fadeIn('down', 0.4)}
@@ -52,7 +55,7 @@ const Home = () => {
             exit='hidden'
             className='hidden xl:flex'
           >
-            <ProjectsBtn />
+            {/* <ProjectsBtn /> */}
           </motion.div>
         </div>
       </div>
@@ -71,7 +74,7 @@ const Home = () => {
           transition={{ duration: 1, ease: 'easeInOut' }}
           className='w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]'
         >
-          <Avatar />
+          {/* <Avatar />   */}
         </motion.div>
       </div>
     </div>

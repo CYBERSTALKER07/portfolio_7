@@ -5,15 +5,15 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/photo_2_2025-01-30_12-57-38.jpg',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/photo_3_2025-01-30_12-57-38.jpg',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/photo_6_2025-01-30_12-57-38.jpg',
         },
         {
           title: 'title',
@@ -25,11 +25,11 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/photo_6_2025-01-30_12-57-38.jpg',
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/photo_5_2025-01-30_12-57-38.jpg',
         },
         {
           title: 'title',
