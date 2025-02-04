@@ -13,7 +13,7 @@ export const testimonialSlider = [
 'student at AUT'  
 },
   {
-    image: '/quvonchbek.jpg',
+    image: '/quvonchbek.JPG',
     name: 'Quvonchbek',
     message:
 'student at AUT'  
