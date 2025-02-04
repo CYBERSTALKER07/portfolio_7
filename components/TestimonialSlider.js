@@ -1,19 +1,19 @@
 // testimonial slider data
 export const testimonialSlider = [
   {
-    image: shakhzod,
+    image: '/shakhzod.jpg',
     name: 'Shakhzod',
     message:
 'student at AUT'  
   },
   {
-    image: madina,
+    image: '/madina.jpg',
     name: 'Madina',
     message:
 'student at AUT'  
 },
   {
-    image: quvonchbek,
+    image: '/quvonchbek.jpg',
     name: 'Quvonchbek',
     message:
 'student at AUT'  
@@ -27,9 +27,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import shakhzod from "..//..//ethan-portfolio/public/shakhzod.jpg"
-import quvonchbek from "..//..//ethan-portfolio/public/quvonchbek.jpg"
-import madina from "..//..//ethan-portfolio/public/madina.jpg"
+// import shakhzod from "/shakhzod.jpg"
+// import quvonchbek from "..//..//ethan-portfolio/public/quvonchbek.jpg"
+// import madina from "..//..//ethan-portfolio/public/madina.jpg"
 
 
 // import required modules
