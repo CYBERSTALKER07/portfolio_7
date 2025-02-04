@@ -1,6 +1,4 @@
-// testimonial slider data
-import shakhzod from "..//..//ethan-portfolio/public/shakhzod.jpg"
-import quvonchbek from "..//..//ethan-portfolio/public/quvonchbek.JPG"
+
 export const testimonialSlider = [
   {
     image: "",
