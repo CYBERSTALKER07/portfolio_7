@@ -1,22 +1,22 @@
-
+// testimonial slider data
 export const testimonialSlider = [
   {
-    image: "",
+    image: shakhzod,
     name: 'Shakhzod',
     message:
-      'student at AUT',
+'student at AUT'  
   },
   {
-    image: '',
+    image: madina,
     name: 'Madina',
     message:
-      'student at AUT',
-  },
+'student at AUT'  
+},
   {
-    image:"",
+    image: quvonchbek,
     name: 'Quvonchbek',
     message:
-      'student at AUT',
+'student at AUT'  
   },
 ];
 
@@ -27,6 +27,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import shakhzod from "..//..//ethan-portfolio/public/shakhzod.jpg"
+import quvonchbek from "..//..//ethan-portfolio/public/quvonchbek.jpg"
+import madina from "..//..//ethan-portfolio/public/madina.jpg"
+
 
 // import required modules
 import { Navigation, Pagination } from 'swiper';
@@ -54,8 +58,14 @@ const TestimonialSlider = () => {
               <div className='w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0'>
                 <div className='flex flex-col justify-center text-center'>
                   {/* avatar */}
-                  <div className='mb-2 mx-auto'>
-                    {/* <Image src={person.image} width={100} height={100} alt='' /> */}
+                  <div className='rounded-full overflow-hidden mb-2 mx-auto'>
+                    <Image 
+                      src={person.image} 
+                      width={200} 
+                      height={200} 
+                      alt='' 
+                      className='w-full h-full object-cover' // Ensure the image covers the container
+                    />
                   </div>
                   {/* name */}
                   <div className='text-lg'>{person.name}</div>
